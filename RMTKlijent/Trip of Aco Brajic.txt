@@ -1,0 +1,12 @@
+Travel information
+----------------------------------
+Name: Aco
+JMBG: 2611002154214
+Passport: 11111111
+Destination: Njemacka
+Entry Date: 2025-03-12
+Exit Date: 2025-03-25
+Days of Stay: 13
+Transport: MOTORBIKE
+Free: Yes
+*********************************

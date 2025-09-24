@@ -1,0 +1,12 @@
+Travel information
+----------------------------------
+Name: Stevo
+JMBG: 0203099265125
+Passport: 11111111
+Destination: Spanija
+Entry Date: 2024-12-15
+Exit Date: 2024-12-25
+Days of Stay: 10
+Transport: BUS
+Free: No
+*********************************

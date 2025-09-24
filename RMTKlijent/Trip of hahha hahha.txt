@@ -1,0 +1,10 @@
+Travel information
+--------------------Name: hahhaJMBG: 25120036666
+Passport: 22222222
+Destination: Njemacka
+Entry Date: 2024-12-25
+Exit Date: 2024-12-30
+Days of Stay: 5
+Transport: MOTORBIKE
+Free: Yes
+*********************************

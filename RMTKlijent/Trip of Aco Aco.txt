@@ -1,0 +1,12 @@
+Travel information
+----------------------------------
+Name: Aco
+JMBG: 2611003154214
+Passport: 22222222
+Destination: Grcka
+Entry Date: 2024-12-25
+Exit Date: 2024-12-30
+Days of Stay: 5
+Transport: CAR
+Free: Yes
+*********************************
