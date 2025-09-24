@@ -29,8 +29,11 @@ The project was developed as part of the *Network Programming* course and consis
    URL:  jdbc:mysql://localhost:3306/rmt?useSSL=false&serverTimezone=Europe/Belgrade
    User: root
    Pass: root
-5. Start the server:
+5. Add MySQL Connector/J:
+   - Download from https://dev.mysql.com/downloads/connector/j/
+   - Add the `.jar` file to the project libraries in NetBeans for all three modules (RMTCommon, RMTClient, RMTServer).
+6. Start the server:
    Run `RMTServer/main/Main.java`.
-6. Start the client:
+7. Start the client:
    Run `RMTClient/main/Main.java`.
 
