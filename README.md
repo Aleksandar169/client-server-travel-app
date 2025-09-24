@@ -37,7 +37,7 @@ The project was developed as part of the *Network Programming* course and consis
    Pass: root
 7. Add MySQL Connector/J:
    - Download from https://dev.mysql.com/downloads/connector/j/
-   - Add the `.jar` file to the project libraries in NetBeans for all three modules (RMTCommon, RMTClient, RMTServer).
+   - Add the `.jar` file to the project libraries in NetBeans for module `RMTServer`.
 8. Check ports:
    - **Server port** → default is `9000` (defined in RMTServer).  
      Make sure this port is free and not blocked by firewall or another application.  
