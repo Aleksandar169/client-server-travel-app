@@ -23,17 +23,27 @@ The project was developed as part of the *Network Programming* course and consis
 ## How to Run
 1. Clone the repository
 2. Open the projects (RMTCommon, RMTClient, RMTServer) in NetBeans.
-3. Create a MySQL database named `rmt` and import the tables 
+3. Build RMTCommon:
+   - Clean and Build the project `RMTCommon`.
+   - This will generate a `.jar` file (e.g., `RMTCommon.jar`) in the `dist` folder.
+4. Add the RMTCommon JAR to Client and Server:
+   - In NetBeans, right-click on `RMTClient` → Properties → Libraries → Add JAR/Folder → select `RMTCommon/dist/RMTCommon.jar`.
+   - Repeat the same for `RMTServer`.
+5. Create a MySQL database named `rmt` and import the tables 
    (user, trip, population) from `baza.sql` (RMTServer/database).
-4. Make sure MySQL is running on:
+6. Make sure MySQL is running on:
    URL:  jdbc:mysql://localhost:3306/rmt?useSSL=false&serverTimezone=Europe/Belgrade
    User: root
    Pass: root
-5. Add MySQL Connector/J:
+7. Add MySQL Connector/J:
    - Download from https://dev.mysql.com/downloads/connector/j/
    - Add the `.jar` file to the project libraries in NetBeans for all three modules (RMTCommon, RMTClient, RMTServer).
-6. Start the server:
+8. Check ports:
+   - **Server port** → default is `9000` (defined in RMTServer).  
+     Make sure this port is free and not blocked by firewall or another application.  
+     If needed, change the port in the server configuration class.
+9. Start the server:
    Run `RMTServer/main/Main.java`.
-7. Start the client:
+10. Start the client:
    Run `RMTClient/main/Main.java`.
 
